@@ -4,6 +4,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * This class represents a contact in the address book.
@@ -12,6 +13,7 @@ import lombok.Setter;
     @Setter
     @EqualsAndHashCode
     @NoArgsConstructor
+    @ToString
 public class Contact {
 
     int id; // id of the contact
