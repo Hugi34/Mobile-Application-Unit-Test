@@ -3,6 +3,9 @@ import org.junit.Test;
 import com.project_one.Contact.Contact;
 import com.project_one.Contact.ContactService;
 
+/**
+ * This class represents a contact service test.
+ */
 public class ContactServiceTest {
         private ContactService contactService= new ContactService(); //Contact service
     
